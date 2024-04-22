@@ -1,0 +1,51 @@
+/* CSS để tạo hình chữ nhật */
+.rectangle {
+    position: relative; /* Đặt vị trí tương đối để có thể định vị các phần tử con */
+    width: 100%; /* Sử dụng toàn bộ chiều rộng của hình chữ nhật */
+    height: 70px; /* Chiều cao của hình chữ nhật */
+    background-color: #3498db; /* Màu nền của hình chữ nhật */
+    display: flex; /* Sử dụng flexbox để căn giữa các phần tử con */
+    align-items: center; /* Căn phần tử con theo chiều dọc */
+    padding: 0 20px; /* Khoảng cách giữa các phần tử và lề trái, lề phải */
+}
+
+/* CSS để tạo thanh tìm kiếm */
+.search-bar {
+    flex: 1; /* Phần tìm kiếm sẽ mở rộng để lấp đầy không gian trống */
+    display: flex; /* Sử dụng flexbox */
+}
+
+.search-bar input[type="text"] {
+    width: 93%; /* Input tìm kiếm mở rộng để lấp đầy không gian còn lại */
+    padding: 8px; /* Khoảng cách giữa nội dung và viền của input */
+    border: none; /* Loại bỏ viền của input */
+    border-radius: 5px; /* Bo góc của input */
+}
+
+.search-bar button {
+    background-color: #ddd; /* Màu nền của nút tìm kiếm */
+    border: none; /* Loại bỏ viền của nút */
+    padding: 8px 15px; /* Khoảng cách giữa nội dung và viền của nút */
+    border-radius: 5px; /* Bo góc của nút */
+    margin-left: 10px; /* Khoảng cách giữa nút và input */
+}
+
+/* CSS để tạo icon menu */
+.menu-icon {
+    padding-right:5px ;
+    font-size: 20px; /* Kích thước của icon */
+    cursor: pointer; /* Biến con trỏ thành dấu vùng khi di chuột qua icon */
+}
+
+/* CSS để tạo các hình chữ nhật xếp ngang */
+.horizontal-rectangles {
+    display: flex; /* Sử dụng flexbox để xếp ngang các hình chữ nhật */
+}
+
+.horizontal-rectangle {
+    width: 100px; /* Độ rộng của mỗi hình chữ nhật */
+    height: 200px; /* Chiều cao của mỗi hình chữ nhật */
+    /* background-color: #f39c12; Màu nền của mỗi hình chữ nhật */
+    margin-right: 20px; /* Khoảng cách giữa các hình chữ nhật */
+    border: 2px solid #000;
+}
